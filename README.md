@@ -4,3 +4,7 @@ We provide an example of searching for important statistics community for a outs
 The code of the example is presented in case_study.Rmd.
 
 The results of the example is presented in case_study.pdf.
+
+The public information of source papers and citation papers are contained in all_paper_1.csv.zip, all_paper_2.csv.zip and all_paper_3.csv.zip.
+
+The citation network is recorded in sparse_matrix.mtx.
