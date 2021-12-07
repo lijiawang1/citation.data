@@ -26,7 +26,10 @@ Import datasets
 ```{r, warning=FALSE,message=FALSE}
 sp_matrix_read <- readMM("~/Desktop/citation/sparse_matrix.mtx")
 
-all_paper <- read_csv("~/Desktop/citation/all_paper.csv")
+all_paper_1 <- read_csv("~/Desktop/citation/all_paper_1.csv")
+all_paper_2 <- read_csv("~/Desktop/citation/all_paper_2.csv")
+all_paper_3 <- read_csv("~/Desktop/citation/all_paper_3.csv")
+all_paper = rbind(all_paper_1, all_paper_2, all_paper_3)
 
 ```
 
